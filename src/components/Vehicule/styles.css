@@ -1,0 +1,26 @@
+.title_style{
+    display: inline-block;
+    text-align: left;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+.title{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.filtre {
+    box-shadow: 4px 8px 20px 0px #777373;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+}
+.style-body{
+    background-color: #ebe5e5;
+}
+.style-label{
+    font-weight: bold;
+}
+.st{
+    background-color: #f1f527;
+}

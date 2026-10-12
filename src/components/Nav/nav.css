@@ -1,0 +1,62 @@
+.navContainer {
+    height: 100vh;
+}
+
+.ministeraNav {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.buttonNav {
+    width: 100%;
+    margin: auto;
+    padding: 4%;
+    /* margin-left: ; */
+    /* height: 59px; */
+    /* border-radius: 8px; */
+    background-color: #38548b;
+    /* box-shadow: 1px 1px 5px 1px #c7b7b7; */
+
+}
+
+.ico {
+    margin-left: -4%;
+    margin-right: 10%;
+}
+
+
+.drop-box {
+    padding: 20px;
+
+}
+
+/* .iconImg{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+} */
+.logoNav {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+p {
+    font-weight: 100;
+}
+
+li,
+p {
+    color: grey;
+    list-style-type: circle;
+}
+
+.lienNav:hover {
+    /* border-left: dotted rgb(250, 250, 250) 30px; */
+    transform: translateX(22px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}

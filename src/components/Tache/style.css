@@ -1,0 +1,122 @@
+.Main {
+    /* text-align: center; */
+}
+
+.all {
+    overflow: scroll;
+    /* over */
+}
+
+.Todo {
+    /* background-color: aquamarine; */
+    /* border-right: 1px solid black; */
+    border: 0.1px solid rgb(214, 205, 205);
+    margin: 2px;
+    /* background-color: #eeeeee; */
+    /* height: 100%; */
+    min-height: 800px;
+    /* width: 80%; */
+    padding: 20px;
+    overflow: auto;
+}
+
+.InProgress {
+    border: 0.1px solid rgb(214, 205, 205);
+    margin: 2px;
+    padding: 20px;
+    /* height: 100%; */
+    min-height: 800px;
+    overflow: auto;
+    /* border-right: 1px solid black; */
+}
+
+.Doing {
+    padding: 20px;
+    /* border: 1px solid black; */
+    border: 0.1px solid rgb(214, 205, 205);
+    margin: 2px;
+    /* height: 100%; */
+    min-height: 800px;
+    overflow: auto;
+    /* width: 80%; */
+}
+
+.headerFiltreTache {
+    height: 90px;
+    width: 100%;
+    /* box-shadow: 5px 5px 7px grey; */
+    /* background-color: white; */
+    /* height: 64px; */
+    /* border-radius: 5px; */
+    /* box-shadow: 1px 1px 11px grey; */
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: rgb(127, 128, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filtre {
+    width: 100%;
+    height: 100px;
+    background-color: #38548b;
+}
+
+.ministeraSary {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+#filtregauche {
+    display: flex;
+    /* align-items: center; */
+}
+
+#filtredroite {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: end;
+}
+
+.findBarTask {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 9px;
+    background-color: white;
+    border: black;
+}
+
+.findLogo {
+    position: absolute;
+    width: 22px;
+    margin-top: inherit;
+    margin-left: inherit;
+}
+
+.drop {
+    width: 80px;
+}
+
+.logoAdd {
+    width: 34px;
+    height: 34px;
+    /* position: absolute; */
+    /* right: 1; */
+}
+
+.logoAdd:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+    /* transform: scale(1.1, 1.1); */
+    transition-duration: 0.5s;
+    /* box-shadow: 1px 1px 1px black; */
+}

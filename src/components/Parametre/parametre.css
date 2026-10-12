@@ -1,0 +1,24 @@
+.boxParametre {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 11px grey;
+    margin-top: 45px;
+    width: 100%;
+    min-height: 800px;
+    /* display: flex; */
+}
+
+.inpuT {
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+}
+
+.boxPrio {
+    width: 30%;
+    padding: 26px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 3px 2px #eae5e5;
+    border-left: red 2px;
+}

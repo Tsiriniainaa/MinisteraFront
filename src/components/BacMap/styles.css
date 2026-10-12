@@ -1,0 +1,81 @@
+.leaflet-container {
+    width: 100vw;
+    height: 85vh;
+}
+.col{
+     height: 50px;
+}
+
+.spin {
+    z-index: 9200 !important;
+}
+
+.iconLegende {
+    width: 50px;
+    height: 50px;
+}
+
+.dateCss {
+
+    z-index: 5000 !important;
+}
+
+.filtre {
+    box-shadow: 4px 8px 20px 0px #777373;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+}
+
+.title_style{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+.erreur{
+    color: white;
+    background-color: red;
+    border : solid 1px white;
+}
+.erreur{
+    color: white;
+    background-color: red;
+    border : solid 1px white;
+}
+/* .p-3 */
+
+/* 
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+} */
+
+/* 
+.container {
+    padding: 30px;
+    padding-top: 10px;
+    background-color: #e1dfdf;
+} */
+
+
+
+/* //////////\\///legende */
+.leaflet-right .leaflet-control {
+    margin-right: 61px;
+    z-index: 900 ;
+}
+.info {
+    width: 210px;
+    /* height: 360px; */
+    /* padding: 16px; */
+    font: 16px/16px Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    /* margin-right: -10px; */
+        /* margin-right: 55px; */
+    right: 0;
+}
+/* 
+.info {
+    position: -ms-;
+} */

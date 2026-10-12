@@ -1,0 +1,59 @@
+.table-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.beautiful-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.beautiful-table th, .beautiful-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.beautiful-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.beautiful-table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.beautiful-table tr:hover {
+  background-color: #ddd;
+}
+
+.modal-dialog {
+  max-width: none; /* Permet à la modal d'utiliser toute la largeur disponible */
+}
+
+.modal-content {
+  width: auto; /* Laisse la largeur du contenu s'adapter */
+  max-height: 80vh; /* Limite la hauteur pour éviter que la modal ne dépasse la fenêtre */
+  overflow-y: auto; /* Ajoute un défilement vertical si nécessaire */
+}
+
+
+.table-container-2 {
+  max-height: 400px; /* Ajustez cette valeur selon vos besoins */
+  overflow-y: auto; /* Ajoute un défilement vertical */
+}
+
+/* Ajoutez ce CSS dans le fichier de style de votre choix (e.g., Loader.css) */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Prend toute la hauteur de la fenêtre */
+}
+
+.loader img {
+  width: 50px; /* Ajustez la taille selon vos besoins */
+}

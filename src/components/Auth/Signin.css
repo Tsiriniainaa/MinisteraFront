@@ -1,0 +1,110 @@
+.main {
+    overflow: hidden;
+    height: 100vh;
+    WIDTH: 100vw;
+}
+
+.formulaire-containerI {
+    /* padding-top :10%;
+    height: max-content;
+    width: 98%;
+    box-shadow: #eeeeee 1px -7px 7px 4px;
+    margin-bottom: auto; */
+    padding-top: 10%;
+    width: 100%;
+    margin-bottom: auto;
+    height: 90%;
+    text-align: center;
+    /* border: #202121 solid 1px; */
+    box-shadow: 1px, 1px, 1px grey;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 15px;
+    /* padding: 20px; */
+    box-shadow: 1px 3px 20px 0px #c3bcbc;
+}
+
+.formulaire-container {
+    /* padding-top :10%;
+    height: max-content;
+    width: 98%;
+    box-shadow: #eeeeee 1px -7px 7px 4px;
+    margin-bottom: auto; */
+    padding-top: 2%;
+    width: 95%;
+    margin-bottom: auto;
+    height: 90vh;
+    text-align: center;
+    /* border: #202121 solid 1px; */
+    box-shadow: 1px, 1px, 1px grey;
+    margin-right: 20%;
+    margin-top: 2%;
+    border-radius: 15px;
+    /* padding: 20px; */
+    box-shadow: 1px 3px 20px 0px #c3bcbc;
+}
+
+.logo {
+    text-align: center;
+}
+
+.slogon {
+    width: 62%;
+    margin: auto;
+    color: grey;
+}
+
+.formControl {
+    margin-top: 20px;
+}
+
+.check {
+    /* maring-left: 0; */
+    width: '20px';
+    height: '20px';
+}
+
+.my-input {
+    width: 70%;
+    height: 49px;
+    margin-top: 52px;
+    margin: auto;
+    margin-top: -12;
+    border-radius: 4px;
+    border: solid #bfb5b5 1px;
+    padding: 10px;
+}
+
+.buttons {
+    background-color: #36b598;
+    border: #5ad9d9;
+    border-radius: 8px;
+    width: 70%;
+    height: 54px;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px #f1edff;
+}
+
+.buttons:hover {
+    background-color: #21de14;
+}
+
+.button:hover {
+    background-color: #29a4db;
+}
+
+.button {
+    background-color: #35528a;
+    border: #5ad9d9;
+    border-radius: 8px;
+    width: 70%;
+    height: 54px;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px #f1edff;
+}

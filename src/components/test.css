@@ -1,0 +1,18 @@
+.divDragable1{
+width: 200px;
+height: 300px;
+background-color: aquamarine;
+cursor: move;
+}
+/* .divDragable1:hover{
+width: 200px;
+height: 300px;
+background-color: red;
+cursor: grab;
+} */
+
+.divDragable2{
+width: 200px;
+height: 300px;
+background-color: red;
+}

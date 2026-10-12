@@ -1,0 +1,25 @@
+.leaflet-container {
+    height: 800px;
+    width: 100%;
+}
+
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+}
+
+/* 
+.container {
+    padding: 30px;
+    padding-top: 10px;
+    background-color: #e1dfdf;
+} */
+
+.boxMain {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(221, 218, 218);
+    margin-top: 45px;
+    width: 100%;
+    /* min-height: 800px; */
+}
